@@ -1,0 +1,521 @@
+
+
+<html>
+<head>
+	<title>TRANSKRIP MATA KULIAH</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<style>
+		table.plainGrid
+		{
+			background: white;
+			border-collapse: collapse;
+		}
+		
+		table.plainGrid td
+		{
+			border: 1px #000 solid;
+			padding: 0.3em;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+		}
+		
+		table.dataGrid tr
+		{
+			color:#000;
+		}
+		
+		
+	</style>
+</head>
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+<div align="center" style="padding:5px">
+<table align="center" cellpadding="4" cellspacing="0">
+	<tr>
+		<td align="center" colspan="5"><strong><font size="3">TRANSKRIP MATA KULIAH</font></strong></td>
+	</tr>
+</table>
+<br>
+<table class="plainGrid">
+	<tr>
+		<td class="EditTabLabel"><strong>NRP / Nama</strong></td>
+		<td> 05111740000180 / NANDHA HIMAWAN </td>
+    </tr>
+    <tr>
+		<td class="EditTabLabel"><strong>SKS Tempuh / SKS Lulus</strong></td>
+		<td> 132 / 129 </td>
+    </tr>
+    <tr>
+		<td class="EditTabLabel"><strong>Status </strong></td>
+		<td>  Normal</td>
+    </tr>	
+</table>
+
+<br>  
+    
+	  <table class="plainGrid">
+  		<tr> 
+			<td align="center" colspan="5"><strong>--- Tahap: Persiapan ---</strong></td>
+  		</tr>
+        <tr class="trJudul"> 
+            <td width="50" align="center">Kode</td>
+            <td width="200" align="center">Nama Mata Kuliah</td>
+            <td width="30" align="center">SKS</td>
+            <td width="100" align="center">Historis Nilai</td>
+            <td width="50" align="center">Nilai</td>
+        </tr>
+		  	 
+            <tr>		
+                <td align="center">
+								IF184302							</td>
+                <td align="left">Aljabar Linier</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								IG141101							</td>
+                <td align="left">Pendidikan Agama Islam</td>
+                <td align="center">2</td>
+                <td align="left">2017/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								IG141106							</td>
+                <td align="left">Wawasan Kebangsaan</td>
+                <td align="center">3</td>
+                <td align="left">2017/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								IG141108							</td>
+                <td align="left">Bahasa Inggris</td>
+                <td align="center">3</td>
+                <td align="left">2017/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141301							</td>
+                <td align="left">Dasar Pemrograman</td>
+                <td align="center">4</td>
+                <td align="left">2017/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141302							</td>
+                <td align="left">Matematika Diskrit</td>
+                <td align="center">3</td>
+                <td align="left">2017/Gs/B </td>
+                <td align="center">B </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141303							</td>
+                <td align="left">Sistem dan Teknologi Informasi</td>
+                <td align="center">2</td>
+                <td align="left">2017/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141304							</td>
+                <td align="left">Sistem Digital </td>
+                <td align="center">3</td>
+                <td align="left">2017/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								SM141203							</td>
+                <td align="left">Kalkulus I</td>
+                <td align="center">3</td>
+                <td align="left">2017/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141306							</td>
+                <td align="left">Organisasi Komputer</td>
+                <td align="center">3</td>
+                <td align="left">2017/Gn/A </td>
+                <td align="center">A </td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141307							</td>
+                <td align="left">Struktur Data</td>
+                <td align="center">4</td>
+                <td align="left">2017/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+				 
+            <tr>		
+                <td align="center">
+								KI141331							</td>
+                <td align="left">Matematika Informatika</td>
+                <td align="center">3</td>
+                <td align="left">2017/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+			
+			<tr>
+				<td align="center" colspan="5">Total Sks Tahap Persiapan : <strong>36</strong></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="5">IP Tahap Persiapan : <strong>3.71</strong></td>
+			</tr>
+
+	  
+		</table>
+
+        <br>
+
+        <table class="plainGrid">
+			<tr> 
+				<td align="center" colspan="5"><strong>--- Tahap: Sarjana ---</strong></td>
+			</tr>
+			<tr> 
+				<td width="50" align="center">Kode</td>
+				<td width="200" align="center">Nama Mata Kuliah</td>
+				<td width="30" align="center">SKS</td>
+				<td width="100" align="center">Historis Nilai</td>
+				<td width="50" align="center">Nilai</td>
+			</tr>
+		              <tr>		
+				<td align="center">
+										
+					IF184301									</td>
+                <td align="left">Pemrograman Berorientasi Objek</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184303									</td>
+                <td align="left">Komputasi Numerik</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gs/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IW184301									</td>
+                <td align="left">Sistem Basis Data</td>
+                <td align="center">4</td>
+                <td align="left">2018/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184401									</td>
+                <td align="left">Perancangan dan Analisis Algoritma</td>
+                <td align="center">4</td>
+                <td align="left">2018/Gn/A </td>
+                <td align="center">A </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184402									</td>
+                <td align="left">Sistem Operasi</td>
+                <td align="center">4</td>
+                <td align="left">2018/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184403									</td>
+                <td align="left">Kecerdasan Buatan</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gn/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184404									</td>
+                <td align="left">Manajemen Basis Data</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184405									</td>
+                <td align="left">Probabilitas dan Statistik</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184406									</td>
+                <td align="left">Analisis dan Perancangan Sistem Informasi</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gn/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184501									</td>
+                <td align="left">Perancangan Perangkat Lunak</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184502									</td>
+                <td align="left">Grafika Komputer</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gs/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184503									</td>
+                <td align="left">Kecerdasan Komputasional</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gs/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184504									</td>
+                <td align="left">Pemrograman Web</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184505									</td>
+                <td align="left">Jaringan Komputer</td>
+                <td align="center">4</td>
+                <td align="left">2018/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184506									</td>
+                <td align="left">Manajemen Proyek Perangkat Lunak</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184601									</td>
+                <td align="left">Interaksi Manusia dan Komputer</td>
+                <td align="center">3</td>
+                <td align="left">2018/Gn/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184602									</td>
+                <td align="left">Pemrograman Jaringan</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184603									</td>
+                <td align="left">Rekayasa Kebutuhan</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gn/A </td>
+                <td align="center">A </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184604									</td>
+                <td align="left">Teori Graf dan Otomata</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gn/B </td>
+                <td align="center">B </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184605									</td>
+                <td align="left">Pemrograman Berbasis Kerangka Kerja</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					UG184915									</td>
+                <td align="left">Teknopreneur</td>
+                <td align="center">2</td>
+                <td align="left">2020/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184701									</td>
+                <td align="left">Keamanan Informasi dan Jaringan</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184901									</td>
+                <td align="left">Pemorgraman Perangkat Bergerak</td>
+                <td align="center">3</td>
+                <td align="left">2020/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184911									</td>
+                <td align="left">Jaringan Nirkabel</td>
+                <td align="center">3</td>
+                <td align="left">2020/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184912									</td>
+                <td align="left">Teknologi antar Jaringan</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gs/A </td>
+                <td align="center">A </td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184961									</td>
+                <td align="left">Sistem Enterprise</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184962									</td>
+                <td align="left">Rekayasa Pengetahuan</td>
+                <td align="center">3</td>
+                <td align="left">2020/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					SB184743									</td>
+                <td align="left">Perilaku Hewan*</td>
+                <td align="center">3</td>
+                <td align="left">2020/Gs/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+                         <tr>		
+				<td align="center">
+										
+					IF184914									</td>
+                <td align="left">Teknologi IoT</td>
+                <td align="center">3</td>
+                <td align="left">2019/Gn/AB</td>
+                <td align="center">AB</td>		
+            </tr>
+             
+			<tr>
+				<td align="center" colspan="5">Total Sks Tahap Sarjana : <strong>90</strong></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="5">IP Tahap Sarjana : <strong>3.47</strong></td>
+			</tr>
+
+		</table>
+		       
+                 
+		<br>
+			
+		<table class="plainGrid">
+  			<tr>
+				<td>Total Sks</td>
+				<td><strong>126</strong></td>
+            </tr>
+            <tr>
+				<td>IPK</td>
+				<td><strong>3.54</strong></td>
+            </tr>         
+		</table>
+        
+		<br>
+			
+        <table class="plainGrid">
+        <tr>
+			<td><div align="center" class="trSubJudul"><strong>Judul Tugas Akhir / Thesis / Disertasi </strong></div></td>
+      	</tr>
+                 </table>
+		
+        <br>
+        
+		<table class="plainGrid">
+			<tr>
+				<td ><span class="Teks"><strong>CATATAN</strong> 
+		<p>Transkrip Akademik ini hanya berlaku untuk keperluan:</span>
+		
+		<ol>
+			<li>Pengajuan Beasiswa</li>
+			<li>Melamar Pekerjaan</li>
+			<li>Persyaratan Yudisium</li>
+			<li>Tunjangan Gaji</li>
+			<li>........................................................... (tuliskan 
+keperluannya)</li>
+		</ol>
+		</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="Teks"><strong>Tanggal Cetak</strong>: 08 Februari 2021 </span>
+				</td>
+			</tr>
+		</table>
+		<br/>
+</div>
+</body>
+</html>
+
+
+

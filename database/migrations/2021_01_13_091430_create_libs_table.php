@@ -14,7 +14,8 @@ class CreateLibsTable extends Migration
     public function up()
     {
         Schema::create('libs', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->string('namafile');
             $table->timestamps();
         });
     }

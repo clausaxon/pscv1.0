@@ -38,7 +38,7 @@
                                     <td>{{$log->created_at}}</td>
                                     <td>{{$log->jenis}}</td>
                                     <td>{{$log->perihal}}</td>
-                                    <td><a href="{{ url('') }}" class="btn btn-md btn-success  mb-3">Download</a></td>
+                                    <td><a href="/log/downloadsk/{{$log->id}}" class="btn btn-md btn-success  mb-3">Download</a></td>
                                 </tr>
                               @empty
                                   <div class="alert alert-danger">
@@ -49,7 +49,7 @@
                           </table>  
                           {{ $logs->links() }}
                           </br>
-                          <a href="{{ url('suratkeluar') }}" class="btn btn-md btn-success  mb-3">Pedoman STK</a>
+                          <a href="{{ url('suratstk') }}" class="btn btn-md btn-success  mb-3">Pedoman STK</a>
                           <table class="table table-bordered">
                             <thead>
                               <tr>
@@ -65,16 +65,16 @@
                               </tr>
                             </thead>
                             <tbody>
-                              @forelse ($logs as $log)
+                              @forelse ($logs2 as $log2)
                                 <tr>
-                                <td>{{ $log->id }}</td>
-                                    <td>{{ $log->nama_pengirim }}</td>
-                                    <td>{{$log->fungsi_jabatan}}</td>
-                                    <td>{{$log->created_at}}</td>
-                                    <td>{{$log->jenis}}</td>
-                                    <td>{{$log->perihal}}</td>
-                                    <td>{{$log->judul}}</td>
-                                    <td><a href="{{ url('') }}" class="btn btn-md btn-success  mb-3">Download</a></td>
+                                <td>{{ $log2->id }}</td>
+                                    <td>{{ $log2->nama_pengirim }}</td>
+                                    <td>{{$log2->fungsi_jabatan}}</td>
+                                    <td>{{$log2->created_at}}</td>
+                                    <td>{{$log2->jenis}}</td>
+                                    <td>{{$log2->perihal}}</td>
+                                    <td>{{$log2->judul_stk}}</td>
+                                    <td><a href="/log/downloadstk/{{$log2->id}}" class="btn btn-md btn-success  mb-3">Download</a></td>
                                 </tr>
                               @empty
                                   <div class="alert alert-danger">
@@ -83,25 +83,25 @@
                               @endforelse
                             </tbody>
                           </table>  
-                          {{ $logs->links() }}
+                          {{ $logs2->links() }}
                           </br>
-                          <a href="{{ url('suratkeluar') }}" class="btn btn-md btn-success  mb-3">Registrasi Pedoman STK</a>
+                          <a href="{{ url('pendaftaranstk') }}" class="btn btn-md btn-success  mb-3">Registrasi Pedoman STK</a>
                           <table class="table table-bordered">
                             <thead>
                               <tr>
+                                <th scope="col">Nomor</th>
                                 <th scope="col">Nomor Surat</th>
-                                <th scope="col">Jenis Surat</th>
                                 
-                                <th>Durasi</th>
+                                <th>Jenis Surat</th>
                                 
                               </tr>
                             </thead>
                             <tbody>
-                              @forelse ($logs as $log)
+                              @forelse ($logs3 as $log3)
                                 <tr>
-                                <td>{{ $log->id }}</td>
-                                    <td>{{$log->nomorsurat}}</td>
-                                    <td>{{$log->jenissurat}}</td>
+                                <td>{{ $log3->id }}</td>
+                                    <td>{{$log3->nomorsurat}}</td>
+                                    <td>{{$log3->jenissurat}}</td>
                                 </tr>
                               @empty
                                   <div class="alert alert-danger">
@@ -110,7 +110,7 @@
                               @endforelse
                             </tbody>
                           </table>  
-                          {{ $logs->links() }}
+                          {{ $logs3->links() }}
                     </div>
                 </div>
             </div>

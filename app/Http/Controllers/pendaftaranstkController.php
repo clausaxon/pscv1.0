@@ -41,6 +41,7 @@ class pendaftaranstkController extends Controller
        $data ->nomorsurat = $request->nomorsurat;
        $data ->jenissurat = $request->jenissurat;
        $data ->save();
+       return back()->with('success','Success!');
     }
 
     /**

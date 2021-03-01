@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class lib extends Model
 {
     use HasFactory;
+    protected $table = "libs";
+    protected $fillable = ['namafile'];
 }

@@ -18,7 +18,7 @@
                         File Upload
                     </div>
                     <div class="card-body">
-                        <form method="POST" action="{{route('upload.uploadFile')}};" enctype="multipart/form-data">
+                        <form method="POST" action="/lib/upload" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
                                 <label for="file">Choose File</label>
@@ -29,20 +29,25 @@
                     </div>
                 </div>
                 <div class="card-body">
-                        <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th scope="col">Nomor Surat</th>
-                                <th scope="col">Nama Pengirim</th>
-                                <th scope="col">Fungsi Jabatan</th>
-                                <th scope="col">Tanggal</th>
-                                <th scope="col">Jenis Surat</th>
-                                <th scope="col">Perihal</th>
-                                
-                              </tr>
-                            </thead>
-                            
-                          </table> 
+                    <h4 class="my-5">Data</h4>
+ 
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th width="1%">File</th>
+                                <th width="1%">OPSI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($libs as $f)
+
+                            <tr>
+                                <td><a class="btn" href="/lib/download/{{ $f->id }}">{{($f->namafile) }}</a></td>
+                                <td><a class="btn btn-danger" href="/lib/hapus/{{ $f->id }}">HAPUS</a></td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

@@ -11,6 +11,6 @@ class stk extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nama_pengirim', 'fungsi_jabatan','jenis','perihal' 
+        'nama_pengirim', 'fungsi_jabatan','jenis','perihal' , 'judul_stk'
     ];
 }

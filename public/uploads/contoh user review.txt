@@ -1,0 +1,10 @@
+Lincolnshire sausage lentil simmer
+Chipotle chicken tacos with pineapple salsa
+Chicken, goat's cheese cherry tomato bake
+Balinese chicken satay
+
+MATCH (p:Person{id:1}) WITH p MATCH (p)-[rev:REVIEWED]->(r:Recipe)-[:CONTAINS_INGREDIENT]->(i:Ingredient)
+WHERE rev.rating > 3 WITH c,avg(rev.rating) as rating, collect(r) as rs, p WITH p, c order by size(rs) DESC, rating DESC LIMIT 1,
+MATCH (i)<-[:CONTAINS_INGREDIENT]-(r:Recipe)<-[rev:REVIEWED]-(others:Person)
+WHERE NOT p = others WITH r, sum(rev.rating) as rating, c
+RETURN r.name ORDER BY rating DESC LIMIT 5

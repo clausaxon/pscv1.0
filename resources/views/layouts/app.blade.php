@@ -12,6 +12,8 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        
+
 
         @livewireStyles
 
@@ -34,7 +36,19 @@
                 {{ $slot }}
             </main>
         </div>
+        <div class="container">
+        <div class="col-md-7 offset-3 mt-4">
 
+            @include('flash-message')
+
+            @yield('content')
+
+        </div>
+         </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script> 
         @stack('modals')
 
         @livewireScripts
